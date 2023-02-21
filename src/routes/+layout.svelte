@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   // import "@skeletonlabs/skeleton/themes/theme-skeleton.css";
   import "../qv_theme.postcss";
   import "@skeletonlabs/skeleton/styles/all.css";
@@ -10,8 +10,8 @@
 <AppShell>
   <svelte:fragment slot="header">
     <!-- App Bar -->
-    <AppBar background="bg-surface-100-800-token">
-      <strong class="text-xl ">Whats Next?</strong>
+    <AppBar background="bg-surface-400-500-token" border="border-token">
+      <strong class="text-xl">Whats Next?</strong>
     </AppBar>
   </svelte:fragment>
   <!-- Page Route Content -->
