@@ -1,8 +1,4 @@
 <script lang="ts">
-  import {
-    storePrefersDarkScheme,
-    storeLightSwitch,
-  } from "@skeletonlabs/skeleton";
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
